@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaique Miranda</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">inicio</a></li>
+      <li><a href="#portfolio">projetos</a></li>
+      <li><a href="#education">formação</a></li>
+      <li><a href="#about">sobre min</a></li>
+      <li><a href="#contact">contato</a></li>
+      <li><a href="#social">redes sociais</a></li>
+    </ul>
+  </nav>
+  <!-- home section -->
+  <section id="home">
+    <h1 class="heading">OLÁ, EU SOU </h1>
+    <br>
+    <h1 class="heading">KAIQUE MIRANDA</h1>
+    <br><br>
+    <P>Data science analyst</P> <br>
+    <p> são paulo, brazil</p>
+  </section>
+  <!-- portifolio section -->
+  <section id="portfolio">
+    <h1 class="heading">projetos</h1>
+    <div class="gallery">
+      <a href="https://tranquil-flan-373aa5.netlify.app/"><img src="../static/img/calc.jpeg" alt=""></a>
+      <a href="https://ornate-duckanoo-1a6fdd.netlify.app/"><img src="../static/img/dino.jpeg" alt=""></a>
+      <a href="https://graceful-youtiao-eef51d.netlify.app/"><img src="../static/img/snake.jpeg" alt=""></a>
+      <a href="https://deluxe-bienenstitch-fd4a9c.netlify.app/"><img src="../static/img/toDo.jpeg" alt=""></a>
+
+    </div>
+  </section>
+  <!-- education section -->
+  <section id="education">
+    <h1 class="heading">graduação e habilidades</h1>
+    <div class="columns">
+      <div class="box">
+        <h2> Formação academica </h2>
+        <p>Tecnologo  em Análise e Desenvolvimento de Sistemas (UNIP) <br><br>Cursando segunda graduação em Data Science (FIAP).</p>
+      </div>
+
+      <div class="box">
+        <h2>habilidades</h2>
+        <p><img src="../static/img/numpy.png" width="110px" height="70px" alt=""></p>
+        <p><img src="../static/img/pandas.png" width="110px" height="70px" alt=""></p>
+        <p><img src="../static/img/python.png" width="110px" height="70px" alt=""></p>
+        <p><img src="../static/img/matplot.png" width="120px" height="70px" alt=""></p>
+        <p><img src="../static/img/sql.png" width="110px" height="70px" alt=""></p>
+        <p><img src="../static/img/flask.png" width="110px" height="70px" alt=""></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- about section -->
+
+  <section id="about">
+    <h1 class="heading">sobre min</h1>
+    <div class="about">
+      <img src="../static/img/about me.jpeg" alt="">
+      <div class="name">
+        <h2>KAIQUE MIRANDA</h2>
+        <P> Possuo habilidades básicas em integração de APIs, com experiência na utilização e manipulação de dados provenientes de diferentes fontes. Minha proficiência intermediária em Python me permite desenvolver scripts e aplicativos para automatizar processos e análises de dados. Além disso, tenho conhecimento intermediário em Pandas e Numpy, o que me capacita a realizar tarefas avançadas de manipulação e análise de dados de forma eficiente. Estou comprometido em continuar aprimorando minhas habilidades técnicas e contribuir para projetos desafiadores na área de ciência de dados e desenvolvimento de software. </P>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact section -->
+
+  <section id="contact">
+    <h1 class="heading">contato</h1>
+    <form action="" class="form">
+      <input type="text" name="name" required maxlength="30" minlength="3" class="input" placeholder="digite seu nome">
+      <input type="email" name="email" required maxlength="50" class="input" placeholder="digite seu email">
+      <textarea name="message" id="message" required maxlength="500" cols="70" rows="10" placeholder="deixe uma menssagem"></textarea>
+      <input type="submit" value="enviar" id="submit">
+    </form>
+  </section>
+
+  <footer>
+    <ul id="social">
+      <a href="https://github.com/kaiquemiranda">
+        <li class="social"><img src="../static/img/iconmonstr-github-3.svg" alt="github" width="80px" height="80px"></li>
+      </a>
+      <a href="https://www.instagram.com/kaiquerebelo/">
+        <li class="social"><img src="../static/img/iconmonstr-instagram-13.svg" alt="instagram" width="80px" height="80px">
+        </li>
+      </a>
+      <a href="https://www.linkedin.com/in/kaique-miranda/">
+        <li class="social"><img src="../static/img/iconmonstr-linkedin-3.svg" alt="linkedin" width="80px" height="80px"></li>
+      </a>
+      <a href="https://wa.me/5511930084031">
+        <li class="social"><img src="../static/img/iconmonstr-whatsapp-3.svg" alt="whatsapp" width="80px" height="80px"></li>
+      </a>
+    </ul>
+    <div class="copywriting">
+      <h1>© KAIQUE MIRANDA</h1>
+    </div>
+  </footer>
+
+</body>
+
+</html>
